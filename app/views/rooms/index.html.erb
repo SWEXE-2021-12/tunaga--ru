@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div>
   <ul>
     <% @rooms.each do |room| %>
@@ -8,10 +9,17 @@
 
 <div>
   
+=======
+>>>>>>> 419a9047b71547df9a961652f5859cba6c540f20
 <!DOCTYPE html>
 <html>
+  <p>
+  部屋一覧
+  </p>
+
     <head>
         <meta charset="utf-8"/>
+<<<<<<< HEAD
         
         <link rel="stylesheets" href=/stylesheets/index.css">
         <style type="text/css">
@@ -25,3 +33,29 @@
   </h1>
   
 </html>
+=======
+
+        <link rel="stylesheet" type="text/css" href="assets/rooms.scss">
+</style>
+</head>
+<body>
+<div class="img_area">
+<img src="/homu.png" width="35%"　height="35%">
+      <div class="logo_area" style="position:absolute; top: 0.5px; left:10px"> 
+                    <img src="/logo.png" width="15%"　height="15%" >
+                </div>
+                </body>
+<div>
+  <ul>
+    <% @rooms.each do |room| %>
+      <li><%= link_to "ROOM#{room.id}", room_path(room) %></li>
+    <% end %>
+  </ul>
+
+</div>
+  </div>
+</font>
+
+</html>
+  <li><%= button_to 'sign_out', destroy_user_session_path, method: :delete %></li>
+>>>>>>> 419a9047b71547df9a961652f5859cba6c540f20
