@@ -1,3 +1,49 @@
 // Place all the styles related to the rooms controller here.
 // They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+    background-color: #ff6666;
+  //background-image: url("homu.jpg");
+  //background-position: center center;
+  //background-size: contain;
+  //background-size: 100% 200%;
+  //background-repeat: no-repeat;
+}
+
+.img_area{
+    position: relative;
+}
+
+.img_area img{
+   display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+p{
+    font-size: 80px;
+    text-decoration: underline;
+    text-align: center;
+    line-height:0.95em;
+    font-weight:bold;
+    color: #01579B;
+    text-shadow: 0 0 0.2em rgba(255,255,255,1);
+
+
+}
+
+ul{
+    font-size: 50px;
+    list-style: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+  }
+
+.logo_area img{
+    text_align: left;
+}
