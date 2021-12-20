@@ -80,9 +80,6 @@ test:
 #
 production:
   <<: *default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5 
   database: actioncable_production
   username: actioncable
   password: <%= ENV['ACTIONCABLE_DATABASE_PASSWORD'] %>
